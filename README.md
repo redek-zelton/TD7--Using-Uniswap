@@ -1,7 +1,18 @@
 # TD7--Using-Uniswap
-[Uniswap](https://app.uniswap.org/)
-[OpenZeppelin](https://openzeppelin.com/)
-[Truffle](https://trufflesuite.com/)
+- [Uniswap](https://app.uniswap.org/)
+- [OpenZeppelin](https://openzeppelin.com/)
+- [Truffle](https://trufflesuite.com/)
+- [Infura](https://infura.io)
+
+## Setting in truffle
+- npm init
+- npm i node module
+- npm install truffle
+- truffle init
+- npm install @openzeppelin/contracts@3.4.1
+- npm install @truffle/hdwallet-provider
+- truffle compile
+- truffle migrate --reset --network infura --skip-dry-run
 
 ## ex1_showIHaveTokens()
 - Go to Uniswap
@@ -36,7 +47,10 @@
 - Use Evaluator Contract > call "ex7_tokenIsTradableOnUniswap()" function
 - > it's work 
 
-##
+## ex8_contractCanSwapVsEth()
+## ex9_contractCanSwapVsDummyToken()
+## ex10_contractCanProvideLiquidity()
+## ex11_contractCanWithdrawLiquidity()
 
 
 
